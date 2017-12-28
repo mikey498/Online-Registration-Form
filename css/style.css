@@ -1,0 +1,425 @@
+
+
+
+@media (min-width : 320px) {
+
+
+/*-------- HEADER STYLES FOR 320 ---------*/
+
+
+   .h1{
+     font-size: 15px;
+     text-align: center;
+     color: white;
+    }
+
+
+
+   .header {
+     padding-top: 15px;
+     color: black;
+     font-size: 20px;
+     text-align: center;
+     background-color: #1d2130;
+     height: 50px;
+     width: 100%;
+   }
+
+
+
+   h2 {
+    font-size: 18px;
+    margin-top: 40px;
+   }
+
+
+
+   .para1 {
+     font-size:17px;
+     text-align: center;
+   }
+
+
+
+   .hr {
+      border: none;
+      height: 4px;
+      color: #333;
+      background-color: #333;
+      margin-top:120px;
+    }
+
+
+
+    .hr1 {
+      border: none;
+      height: 2px;
+      color: #333;
+      background-color: #333;
+    }
+
+/*-------- BODY LAYOUT STYLES 320 -------*/
+
+
+
+
+
+
+
+    input[type=text]:focus {
+        border: 2px solid blue;
+
+    }
+
+
+
+
+  .legend {
+      margin-top: 35px;
+      margin-bottom: 25px;
+      font-size: 22px;
+
+   }
+
+
+
+  .container input {
+
+      width:99%;
+      display: flex;
+      flex-direction: column;
+
+      height: 30px;
+      margin-left: -1px;
+      border-radius: 5px;
+      margin-top: 8px;
+      border-top-width: 1px;
+      border-left-width: 1px;
+      border-bottom-width: 2px;
+      border-right-width: 2px;
+  }
+
+
+
+
+
+
+/*------ FOOTER LAYOUT STYLES 320 --------*/
+
+
+   .legend1 {
+      font-size: 20px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+   }
+
+
+
+    .hr2 {
+       border: none;
+       height: 3px;
+       color: #333;
+       background-color: #333;
+       margin-top: 30px;
+    }
+
+
+
+   .intro2 {
+      font-size: 17px;
+   }
+
+
+
+    .container1  {
+      margin-top: 20px;
+    }
+
+
+
+
+   .container1 input {
+       width:100%;
+       height: 70px;
+       border-radius: 5px;
+       margin-top: 10px;
+       border-top-width: 1px;
+       border-left-width: 1px;
+       border-bottom-width: 2px;
+       border-right-width: 2px;
+
+   }
+
+
+
+
+
+    button {
+       width:100%;
+       height: 60px;
+       border-radius:   5px 5px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       background-color: #20B2AA;
+       font-size: 20px;
+       font-weight: 6px;
+       color: white;
+    }
+
+
+
+    input[type="radio"] {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+
+
+    input[type="checkbox"] {
+      margin-top: 10px;
+
+    }
+
+
+    footer {
+      text-align: center;
+    }
+
+
+
+
+/*----------------  MEDIA QUERIES 768PX -----------------------*/
+
+  @media (min-width : 768px){
+
+/*--------- HEADER STYLES 768 ----------*/
+
+
+      main {
+       max-width: 768px;
+        margin:auto;
+      }
+
+
+    .header {
+      padding-top: 30px;
+      color: black;
+      font-size: 25px;
+      text-align: center;
+      background-color: #1d2130;
+      height: 60px;
+      width: 100%;
+    }
+
+
+
+    .h2 {
+      color:white;
+    }
+
+
+
+   .h1 {
+      text-align: center;
+      margin-top: 0px;
+      font-size: 27px;
+
+   }
+
+
+
+   .para1 {
+       margin-left:0px;
+       margin-top: 30px;
+   }
+
+
+
+  .hr {
+       border: none;
+       height: 4px;
+       color: #333;
+       background-color: #333;
+       margin-top: 125px;
+   }
+
+
+
+  .hr1 {
+       border: none;
+       height: 2px;
+       color: #333;
+       background-color: #333;
+
+  }
+
+
+
+/*-------- BODY LAYOUT STYLES 768 -------*/
+
+
+
+  input[type=text]:focus {
+       border: 2px solid #555;
+      }
+
+
+      input[placeholder="required"] {
+        text-align: right;
+        font-style: italic;
+      }
+
+
+  .container label {
+       align-items: center;
+
+
+      }
+
+
+
+    .container input  {
+       display: flex;
+       flex-wrap: wrap;
+       height: 35px;
+       margin: 10px;
+       margin-left: 25%;
+
+       margin-top: -23px;
+       width: 73%;
+       border-top-width: 1px;
+       border-left-width: 1px;
+       border-bottom-width: 2px;
+       border-right-width: 2px;
+     }
+
+
+
+     .state input {
+       text-align: left;
+     }
+
+
+
+     .zipcode input{
+      width: 150px;
+     }
+
+
+
+     .legend {
+      margin-bottom: 40px;
+
+    }
+
+
+
+
+
+
+    .h2 {
+      text-align: center;
+    }
+
+
+
+    .para1 {
+        font-size: 23px;
+     }
+
+
+
+    .h3 {
+      margin-top: 50px;
+      margin-left: 0%;
+    }
+
+
+
+    .h1 {
+      font-size: 30px;
+   }
+
+
+
+
+
+
+   .hr2 {
+      border: none;
+      height: 4px;
+      color: #333;
+      background-color: #333;
+
+      margin-top: 30px;
+    }
+
+
+
+
+  input[type="checkbox"] {
+
+    margin-top: 20px;
+  }
+
+
+  input[type="radio"] {
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+  }
+
+
+
+  .container1 input {
+      width:100%;
+
+
+      height: 70px;
+      border-radius: 5px;
+      margin-top: 10px;
+}
+
+
+  .container1 label {
+    margin-left: 20px;
+  }
+
+
+   .legend1 {
+     margin-left: 20px;
+     margin-top: 20px;
+   }
+
+
+  .intro2 {
+    margin-left: 20px;
+  }
+
+
+   .intro3 {
+
+     margin-top: 30px;
+   }
+
+
+  button {
+     width:100%;
+
+     height: 60px;
+     border-radius:   5px 5px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     background-color: #20B2AA;
+     font-size: 20px;
+     font-weight: 6px;
+     color: white;
+
+  }
+
+
+   .copy {
+     text-align:center;
+   }
+
+}
