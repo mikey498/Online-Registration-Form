@@ -22,9 +22,11 @@
 <main>
 
   <section class="container">
-    <form>
 
-         <h3 class="legend"><strong> Contact Information </strong></h3>
+    <form>
+        <feildset>
+
+         <legend class="legend"><strong> Contact Information </strong></legend>
 
       <label for="fullname">Full Name</label>
       <input type="text" id="fullname" placeholder="required" name="fname">               <br>
@@ -46,7 +48,7 @@
       <input type="text" id="city" name="lname">                             <br>
 
 
-      <label class="state2" name="states" for="state">State</label>
+      <label class="state2" for="state">State</label>
 
            <select>
 
@@ -105,23 +107,22 @@
           </select><br>
 
 
+             <div class="zipcode">
+              <label for="zipcode">Zip Code</label>
+              <input type="text" id="zipcode" name="zipcode">
+            </div>
+
+     </feildset>
+   </section>
+
+    <section>
+     <feildset>
+
+         <hr class="hr2">
 
 
 
-    <div class="zipcode">
-       <label for="zipcode">Zip Code</label>
-       <input type="text" id="zipcode" name="zipcode">
-    </div>
-
-
-</section>
-<section>
-
-    <hr class="hr2">
-
-
-
-       <h4 class="legend1"><strong>Newsletter</strong></h4>
+       <legend class="legend1"><strong>Newsletter</strong></legend>
 
        <p class="intro2">Select the newsletter you would like to recieve</p>
 
@@ -145,35 +146,36 @@
       </label><br>
 
 
-    <p class="intro3">Newsletter Format</p>
+    <legend class="intro3" for="htmlformat">Newsletter Format</legend>
 
 
       <input type="radio" id="htmlformat" name="htmlformat">
       <label class="radio" for="htmlformat">HTML</label><br>
 
 
-      <input type="radio" id="plaintext" name="htmlformat">
+      <input type="radio" id="htmlformat" name="htmlformat">
       <label class="radio1" for="plaintext">Plain text</label><br>
 
 
 
 
 
-        <p class="topics">Other topics you would to hear about</p>
-        <textarea class="textarea" name="textarea" rows="4" cols="50">  </textarea>
+        <legend class="topics">Other topics you would to hear about</legend>
+        <textarea class="textarea" rows="4" cols="50">  </textarea>
 
 
 
 
           <button type="button">Sign Up</button>
 
+         </feildset>
         </section>
        </form>
       </main>
 
          <footer>
             <span class="copy">&copy; 2018 The Code Review</span>
-       </footer>
+        </footer>
 
   </body>
 </html>
