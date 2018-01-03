@@ -1,7 +1,7 @@
 
 
 
-media (min-width : 320px) {
+@media (min-width : 320px) {
 
 
 /*-------- HEADER STYLES FOR 320 ---------*/
@@ -279,6 +279,7 @@ select {
   .container label {
        align-items: center;
 
+
 }
 
 
@@ -290,7 +291,7 @@ select {
        margin: 10px;
        margin-left: 25%;
 
-       margin-top: -23px;
+       margin-top: -25px;
        width: 73%;
        border-top-width: 1px;
        border-left-width: 1px;
@@ -317,6 +318,11 @@ select {
     }
 
 
+    .state2, select {
+      display:flex;
+      flex-wrap: wrap;
+
+    }
 
 
 
@@ -324,7 +330,7 @@ select {
       width: 74%;
       margin-left: 25%;
       height:38px;
-      margin-bottom: 20px;
+      margin-bottom: 15px;
       margin-top: -20px;
     }
 
