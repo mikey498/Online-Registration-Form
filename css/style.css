@@ -1,7 +1,7 @@
 
 
 
-@media (min-width : 320px) {
+media (min-width : 320px) {
 
 
 /*-------- HEADER STYLES FOR 320 ---------*/
@@ -361,6 +361,9 @@ select {
 
 
 
+    .topics {
+      margin-top: 30px;
+    }
 
 
 
@@ -429,7 +432,7 @@ select {
      margin-bottom: 20px;
      background-color: #20B2AA;
      font-size: 20px;
-    
+     font-weight: 6px;
      color: white;
 
   }
@@ -440,3 +443,4 @@ select {
    }
 
 }
+
