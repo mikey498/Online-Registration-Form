@@ -1,7 +1,9 @@
 
 
 
-media (min-width : 320px) {
+
+
+@media (min-width : 320px) {
 
 
 /*-------- HEADER STYLES FOR 320 ---------*/
@@ -115,7 +117,7 @@ select {
 
    .legend1 {
       font-size: 20px;
-      margin-top: 20px;
+      margin-top: 30px;
       margin-bottom: 15px;
    }
 
@@ -157,6 +159,14 @@ select {
    }
 
 
+   .intro3 {
+     margin-top: 20px;
+   }
+
+
+    .topics {
+      margin-top: 10px;
+    }
 
 
 
@@ -443,4 +453,5 @@ select {
    }
 
 }
+
 
