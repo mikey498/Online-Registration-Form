@@ -21,11 +21,11 @@
 <main>
 
     <form>
-<feildset>
+
   <section class="container">
 
-    
-       
+
+        <feildset>
 
          <legend class="legend"><strong> Contact Information </strong></legend>
 
@@ -49,11 +49,11 @@
       <input type="text" id="city" name="lname">                             <br>
 
 
-      <label class="state2">State</label>
+      <label class="state2" for="state">State</label>
 
            <select>
 
-               <option value="Choose State">Choose State</option>
+               <option value selected hidden disabled>Choose State</option>
                <option value="Alabama">Alabama</option>
                <option value="Alaska">Alaska</option>
                <option value="Arizona">Arizona</option>
@@ -154,24 +154,23 @@
       <label class="radio" for="htmlformat">HTML</label><br>
 
 
-      <input type="radio" id="plain text" name="Plain Text">
-      <label class="radio1" for="plain text">Plain text</label><br>
+      <input type="radio" id="plaintext" name="htmlformat">
+      <label class="radio1" for="htmlformat">Plain text</label><br>
 
 
 
 
 
-        <legend class="topics">Other topics you would to hear about</legend>
-        <textarea class="textarea" rows="4" cols="50">  </textarea>
+        <label class="topics" for="textarea">Other topics you would to hear about</label>
+        <textarea class="textarea" id="textarea" rows="4" cols="50">  </textarea>
 
 
 
 
           <button type="button">Sign Up</button>
 
-           </section>
          </feildset>
-        
+        </section>
        </form>
       </main>
 
@@ -180,3 +179,4 @@
         </footer>
 
   </body>
+</html>
